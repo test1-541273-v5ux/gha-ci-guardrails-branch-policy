@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: YourCompany/ci-guardrails-branch-policy@v0.1.0
+      - uses: test1-541273-v5ux/gha-ci-guardrails-branch-policy@v1
         with:
           message: "Hello from CI Guardrails - Branch Policy"
 ```
